@@ -1,0 +1,164 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear_main"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear_item"
+			android:layout_width="270dp"
+			android:layout_height="match_parent"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/linear_message"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="5dp"
+				android:layout_marginTop="2dp"
+				android:layout_marginRight="5dp"
+				android:layout_marginBottom="2dp"
+				android:padding="5dp"
+				android:background="#FFFFFF"
+				android:orientation="vertical">
+				<LinearLayout
+					android:id="@+id/lin_reply"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="4dp"
+					android:background="#FFFFFF"
+					android:orientation="vertical">
+					<TextView
+						android:id="@+id/tx_replyer"
+						android:focusable="false"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="3dp"
+						android:text="Telme Chat"
+						android:textSize="14sp"
+						android:textStyle="bold"
+						android:textColor="#000000"
+						android:singleLine="true" />
+					<TextView
+						android:id="@+id/tx_reply_msg"
+						android:focusable="false"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="3dp"
+						android:text="Hello how are you\?"
+						android:textSize="12sp"
+						android:textColor="#000000"
+						android:singleLine="true" />
+				</LinearLayout>
+				<TextView
+					android:id="@+id/tx_message"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="5dp"
+					android:text="Hello how are you\?"
+					android:textSize="16sp"
+					android:textColor="#000000" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/l_voice"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="5dp"
+				android:layout_marginTop="2dp"
+				android:layout_marginRight="5dp"
+				android:layout_marginBottom="2dp"
+				android:padding="5dp"
+				android:background="#FFFFFF"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+				<ImageView
+					android:id="@+id/im_play"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="5dp"
+					android:src="@drawable/ic_play_arrow_white"
+					android:scaleType="center" />
+				<SeekBar
+					android:id="@+id/seekbar1"
+					android:focusable="false"
+					android:layout_width="100dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp" />
+				<TextView
+					android:id="@+id/tx_voice_name"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="3:28"
+					android:textSize="14sp"
+					android:textColor="#000000" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear_file"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="5dp"
+				android:layout_marginTop="2dp"
+				android:layout_marginRight="5dp"
+				android:layout_marginBottom="2dp"
+				android:padding="5dp"
+				android:background="#FFFFFF"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+				<ImageView
+					android:id="@+id/im_file"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_margin="8dp"
+					android:src="@drawable/icon_file_doc"
+					android:scaleType="center" />
+				<TextView
+					android:id="@+id/tx_file_name"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="File 369324.doc"
+					android:textSize="16sp"
+					android:textColor="#000000"
+					android:singleLine="true" />
+			</LinearLayout>
+			<ImageView
+				android:id="@+id/thumbs"
+				android:focusable="false"
+				android:layout_width="200dp"
+				android:layout_height="120dp"
+				android:layout_marginLeft="5dp"
+				android:layout_marginTop="2dp"
+				android:layout_marginRight="5dp"
+				android:layout_marginBottom="2dp"
+				android:background="#FFFFFF"
+				android:src="@drawable/default_image"
+				android:scaleType="center" />
+			<ImageView
+				android:id="@+id/imageview1"
+				android:focusable="false"
+				android:layout_width="180dp"
+				android:layout_height="210dp"
+				android:layout_marginLeft="5dp"
+				android:layout_marginTop="2dp"
+				android:layout_marginRight="5dp"
+				android:layout_marginBottom="2dp"
+				android:padding="5dp"
+				android:background="#FFFFFF"
+				android:src="@drawable/default_image"
+				android:scaleType="center" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

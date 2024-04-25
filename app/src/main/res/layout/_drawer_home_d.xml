@@ -1,0 +1,201 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="999dp"
+		android:padding="2dp"
+		android:background="#FFFFFF"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="202dp"
+			android:layout_marginTop="5dp"
+			android:padding="2dp"
+			android:background="#80D8FF"
+			android:orientation="vertical">
+			<de.hdodenhof.circleimageview.CircleImageView
+				android:id="@+id/circleimageview1"
+				android:layout_width="100dp"
+				android:layout_height="90dp"
+				android:src="@drawable/profile"
+				app:civ_border_width="3dp"
+				app:civ_border_color="#008DCD"
+				app:civ_circle_background_color="#FFFFFF"
+				app:civ_border_overlay="true" />
+			<TextView
+				android:id="@+id/textview1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:padding="8dp"
+				android:text="TextView"
+				android:textSize="18sp"
+				android:textColor="#000000" />
+			<TextView
+				android:id="@+id/textview2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:padding="8dp"
+				android:text="TextView"
+				android:textSize="18sp"
+				android:textColor="#000000" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear10"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="2dp"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/linear3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="20dp"
+				android:padding="2dp"
+				android:background="#80D8FF"
+				android:orientation="horizontal">
+				<ImageView
+					android:id="@+id/imageview1"
+					android:layout_width="40dp"
+					android:layout_height="40dp"
+					android:layout_marginLeft="5dp"
+					android:src="@drawable/profile"
+					android:scaleType="fitXY"
+					android:layout_gravity="center_horizontal|center_vertical" />
+				<TextView
+					android:id="@+id/profile"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:padding="8dp"
+					android:text="Profile"
+					android:textSize="20sp"
+					android:textColor="#000000" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear4"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="15dp"
+				android:padding="2dp"
+				android:background="#80D8FF"
+				android:orientation="horizontal">
+				<ImageView
+					android:id="@+id/imageview2"
+					android:layout_width="40dp"
+					android:layout_height="40dp"
+					android:layout_marginLeft="5dp"
+					android:src="@drawable/app"
+					android:scaleType="fitXY"
+					android:layout_gravity="center_horizontal|center_vertical" />
+				<TextView
+					android:id="@+id/manage_appointment"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:padding="8dp"
+					android:text="Manage Appointment"
+					android:textSize="20sp"
+					android:textColor="#000000" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear6"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="15dp"
+				android:padding="2dp"
+				android:background="#80D8FF"
+				android:orientation="horizontal">
+				<ImageView
+					android:id="@+id/imageview3"
+					android:layout_width="40dp"
+					android:layout_height="40dp"
+					android:layout_marginLeft="5dp"
+					android:src="@drawable/per"
+					android:scaleType="fitXY"
+					android:layout_gravity="center_horizontal|center_vertical" />
+				<TextView
+					android:id="@+id/add_precipitation"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:padding="8dp"
+					android:text="Add Prescription"
+					android:textSize="20sp"
+					android:textColor="#000000" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear7"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="15dp"
+				android:padding="2dp"
+				android:background="#80D8FF"
+				android:orientation="horizontal">
+				<ImageView
+					android:id="@+id/imageview4"
+					android:layout_width="40dp"
+					android:layout_height="40dp"
+					android:layout_marginLeft="5dp"
+					android:src="@drawable/contactus"
+					android:scaleType="fitXY"
+					android:layout_gravity="center_horizontal|center_vertical" />
+				<TextView
+					android:id="@+id/about_us"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:padding="8dp"
+					android:text="About us"
+					android:textSize="20sp"
+					android:textColor="#000000" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear8"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="15dp"
+				android:padding="2dp"
+				android:background="#80D8FF"
+				android:orientation="horizontal">
+				<ImageView
+					android:id="@+id/imageview5"
+					android:layout_width="40dp"
+					android:layout_height="40dp"
+					android:layout_marginLeft="5dp"
+					android:src="@drawable/aboutus"
+					android:scaleType="fitXY"
+					android:layout_gravity="center_horizontal|center_vertical" />
+				<TextView
+					android:id="@+id/contact_us"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:padding="8dp"
+					android:text="Contact us"
+					android:textSize="20sp"
+					android:textColor="#000000" />
+			</LinearLayout>
+			<TextView
+				android:id="@+id/logout"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="5dp"
+				android:layout_marginTop="20dp"
+				android:padding="8dp"
+				android:background="#80D8FF"
+				android:text="Log out"
+				android:textSize="20sp"
+				android:textColor="#000000"
+				android:layout_gravity="center_horizontal|center_vertical" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
